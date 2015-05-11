@@ -1,0 +1,5 @@
+> db.boards.find()
+> db.boards.insert({name: 'belle'})
+> show dbs
+> use #myapp-development
+
