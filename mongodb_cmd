@@ -22,3 +22,5 @@ mongod --dpath dbs
 npm install -g mongojs
 
 npm install express@3.4.7 -g
+
+node app.js
