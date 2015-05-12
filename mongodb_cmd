@@ -3,3 +3,15 @@
 > show dbs
 > use #myapp-development
 
+
+sudo netstat -tpln | grep mongod
+
+> db.stats()
+> use mydb
+
+> db.user.insert({name:"ted", gender:"male"})
+> show collections
+
+> db.user.update({gender:"male"}, {$set:{name:"belle"}})
+> db.user.update({name:"belle"}, {$set:{gender:"female"}})
+
